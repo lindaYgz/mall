@@ -1,0 +1,28 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+/*头部*/
+.my_page{width:1000px;}
+.nav{background:black; margin-bottom:0;width:100%;height:40px;}
+ul.list{list-style:none;display:flex;}
+div.nav ul li{padding:10px; margin-left:40px;}
+div.nav ul li a{text-decoration:none;color:#CCCCCC; margin-right:25px;font-size:13px;}
+div.navbar{background:#FFDA44;}
+div.navbar ul li a{text-decoration:none;color:black;margin-right:30px;font-size:18px;}
+div.navbar ul li{padding:45px;}
+	
+div.section{margin-top:30px;}
+table{margin:0 auto;}
+input{border:1px solid #e9e9e9;}
+table tr td{padding-bottom:10px;}
+button{padding:5px 10px;margin-left:680px;}
+input{height:27px;}
+
+/*底部*/
+.footer{ background:#353535;width:100%; height:330px;margin-top:20px;}
+.footer>ul{width:1000px;list-style:none; padding:0;margin:0 auto;padding-top:70px;}
+.my_color{color:#FFDA44;}
+.my_border{ border-left:1px solid #FFDA44; }
+div.footer ul li:nth-child(1){padding-right:60px;}
+div.footer ul>li{float:left;}
+.my_code{ margin-left:100px;}
+li img.my_img{padding-top:85px;}
+li.my_border{padding:40px 50px;}

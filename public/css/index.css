@@ -1,0 +1,120 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+/*头部*/
+.my_page{width:1000px;}
+.nav{background:black; margin-bottom:0;width:100%;height:40px;}
+ul.list{list-style:none;display:flex;}
+div.nav ul li{padding:10px; margin-left:40px;}
+div.nav ul li a{text-decoration:none;color:#CCCCCC; margin-right:25px;font-size:13px;}
+div.navbar{background:#FFDA44;}
+div.navbar ul li a{text-decoration:none;color:black;margin-right:30px;font-size:18px;}
+div.navbar ul li{padding:45px;}
+/*一楼*/
+
+div.first_left{width:280px;height:360px;border:1px solid #EDEDED;}
+div.first_left>p{background:orange;font-size:20px;padding:10px 90px;color:white;}
+div.first_left ul{list-style:none;padding:20px;border-bottom:1px dotted #EDEDED;}
+div.first_left ul li a{text-decoration:none;color:#666;padding-left:8px;}
+div.first_left ul li a:hover{color:#FFDA44;}
+div.first_middle{width:600px;height:360px;}
+div.first_middle ul{list-style:none;position:relative;}
+div.first_middle ul li{position:absolute;top:0;left:0;}
+#img2{
+ opacity:1;
+ transition: all .5s linear;
+}
+div.first_right{width:300px;height:360px;border:1px solid #EDEDED;}
+#first_top{ height:150px; background-color:#F4F4F4;display:flex; justify-content:space-around;}
+div.fst_rig_one,div.fst_rig_two{width:120px;height:115px;padding:20px; background:#fff;margin:20px;}
+#title1{font-weight:bold;padding-bottom:5px;}
+#title2{font-size:10px; color:#666;}
+div.fst_rig_one img{position:relative; left:20px; top:16px;}
+div.fst_rig_two img{position:relative; left:20px;}
+div.fst_rig_three{width:300px;}
+#img1,#my_word{float:left;}
+#my_word{margin-top:65px;}
+div.first_floor{width:1200px;height:360px;margin:10px auto;display:flex;justify-content:space-between;position: relative}
+
+.details{
+    position: absolute;
+    width:330px;
+    height:330px;
+    top:48px;
+    left:280px;
+    background: #fff;
+    display: none;
+    padding:15px;
+    z-index:99;
+}
+.brands{
+    display:flex;
+    justify-content: between;
+}
+/*二楼*/
+div.second_floor{width:1200px;height:360px; margin:70px auto; display:flex;justify-content:space-between;}
+div.second_left{width:280px;height:360px;border:1px solid #EDEDED;}
+div.second_mid_rig{ width:910px;}
+div.second_left ul{list-style:none;}
+div.second_left>p{padding-left:86px;padding-top:15px;font-size:18px;margin-bottom:10px;}
+div.second_left ul li{float:left;background:#F5F5F5;padding:8px;margin:10px 10px;border-radius:3px;}
+div.second_left ul li a{text-decoration:none;color:#666;font-size:14px;}
+div.second_mid_rig ul{list-style:none;display:flex;justify-content:space-between;border:1px solid #EDEDED;padding:72px 0;}
+div.second_mid_rig ul li{text-align:center;width:170px;}
+div.second_mid_rig ul li p{height:20px;overflow:hidden;margin-top:30px;}
+div.second_mid_rig ul li a{text-decoration:none;font-size:14px;color:#666;}
+/*三楼*/
+div.third_floor{width:1200px;height:360px; margin:0 auto;display:flex;}
+div.third_left{width:280px;height:360px;border:1px solid #EDEDED;}
+div.third_left>p{padding-left:86px;padding-top:15px;font-size:18px;margin-bottom:10px;}
+div.third_left ul{list-style:none;}
+div.third_left ul li{float:left; background:#F5F5F5; padding:10px; margin:10px 10px; border-radius:3px;}
+div.third_left ul li a{ text-decoration:none; color:#666; font-size:14px;}
+div.third_middle{width:660px;height:360px;margin-left:10px;}
+div.third_middle ul{list-style:none;display:flex;justify-content:space-between;border:1px solid #EDEDED;padding:61px 0;}
+div.third_middle ul li{text-align:center;width:170px;}
+div.third_middle ul li a{ text-decoration:none; color:#666; font-size:14px;}
+div.third_right{width:240px;padding-top:80px;margin-left:10px;}
+div.third_right p{ padding-top:10px; font-size:14px; color:#666;}
+div.third_right h4{margin-top:50px;}
+#my_price{color:#FFC001;margin-top:30px; }
+li.myProduct{overflow:hidden;}
+/*四楼*/
+div.fourth_floor{width:1200px;height:360px;margin:70px auto;display:flex;justify-content:space-between;}
+div.fourth_left{width:280px;height:360px;border:1px solid #EDEDED;}
+div.fourth_left>p{padding-left:86px;padding-top:15px;font-size:18px;margin-bottom:10px;}
+div.fourth_left ul{list-style:none;}
+div.fourth_left ul li{float:left;background:#F5F5F5;padding:10px;margin:10px 10px;border-radius:3px;}
+div.fourth_left ul li a{text-decoration:none;color:#666;font-size:14px;}
+div.fourth_middle{ width:660px;height:360px;margin-left:5px;}
+div.fourth_middle ul{list-style:none;display:flex;justify-content:space-between;border:1px solid #EDEDED;padding:51px 0;}
+div.fourth_middle ul li{text-align:center;width:170px;}
+div.fourth_middle ul li a p{height:20px;overflow:hidden; margin-top:21px;}
+div.fourth_middle ul li a{ text-decoration:none; color:#666; font-size:14px;}
+div.fourth_right{width:300px;height:360px;border:1px solid #EDEDED;margin-left:5px;}
+div  img.babycar{padding-left:65px;margin-bottom:20px;}
+div #p1{font-weight:bold;margin-bottom:10px;}
+div #p2{font-size:14px;color:#666;}
+/*五楼*/
+div.fifth_floor{width:1200px;height:360px;margin:0 auto;}
+h4.my_style{padding-left:10px;border-left:2px solid orange;}
+div.fifth_floor ul{list-style:none;display:flex;  }
+div.fifth_floor ul li{padding:10px 10px 0 5px;}
+div.fifth_floor ul li a{text-decoration:none;color:#666;font-size:14px;}
+div.fifth_floor1{width:260px;height:140px;}
+div>h2{margin-bottom:20px;}
+#myStyle{display:flex;justify-content:space-around;}
+div.last_floor{ width:100%;border:1px solid #FFDA44;margin:0 auto;background:#FFDA44;}
+div.last_floor ul{display:flex;justify-content:space-around;padding:60px;}
+div.last_floor ul li{list-style:none;}
+div.last_floor ul li img{position:relative;top:10px;}
+div.last_floor ul li p{ margin-top:10px; font-size:14px;}
+div.last_floor ul li p:nth-child(3){margin-top:25px;}
+/*底部*/
+.footer{ background:#353535;width:100%; height:330px;margin-top:20px;}
+.footer>ul{width:1000px;list-style:none; padding:0;margin:0 auto;padding-top:70px;}
+.my_color{color:#FFDA44;}
+.my_border{ border-left:1px solid #FFDA44; }
+div.footer ul li:nth-child(1){padding-right:60px;}
+div.footer ul>li{float:left;}
+.my_code{ margin-left:100px;}
+li img.my_img{padding-top:85px;}
+li.my_border{padding:40px 50px;}
